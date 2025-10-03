@@ -30,7 +30,7 @@ const Landing = () => {
 
         {/* SECTION 2 */}
         <section className='bg-white'>
-          <div className="flex flex-col items-center justify-center p-16 gap-8 md:flex-col md:gap-32 bg-green-500">
+          <div className="flex flex-col items-center justify-center p-16 gap-8 md:flex-col md:gap-32 ">
             <div className="text-center w-sm+  md:w-4xl">
               <p className='text-sm text-[#777777] font-[400] mb-4'>Our Services</p>
 
