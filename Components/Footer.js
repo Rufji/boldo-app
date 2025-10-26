@@ -21,24 +21,24 @@ const Footer = () => {
               <span>All rights reserved.</span>
             </div>
 
-            <div className='flex flex-col md:flex-row text-black items-start justify-between gap-8 md:w-xl lg:w-md'>
+            <div className='flex flex-col  md:flex-row text-[#777777] items-center md:items-start justify-between gap-8 md:w-xl lg:w-md'>
               <div className='flex flex-col items-center md:items-start md:gap-4'>
-                <span className='font-bold mb-2'>Landings</span>
+                <span className='font-bold mb-2 text-black'>Landings</span>
                 <span>Home</span>
                 <span>Products</span>
                 <span>Services</span>
               </div>
 
               <div className='flex flex-col items-center md:items-start md:gap-4'>
-                <span className='font-bold mb-2'>Landings</span>
+                <span className='font-bold mb-2 text-black'>Landings</span>
                 <span>Home</span>
-                <span>Products</span>
+                <div><span>Career</span> <span className='bg-[#65E4A3] text-black p-2 text-xs rounded-3xl'>Hiring!</span></div>
                 <span>Services</span>
               </div>
 
               <div className='flex flex-col items-center md:items-start md:gap-4'>
-                <span className='font-bold mb-2'>Landings</span>
-                <span>Home</span>
+                <span className='font-bold mb-2 text-black'>Landings</span>
+                <span><a href="/Blog">Blog</a></span>
                 <span>Products</span>
                 <span>Services</span>
               </div>

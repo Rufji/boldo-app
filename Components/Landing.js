@@ -8,10 +8,10 @@ const Landing = () => {
     <div className=''>
       <main className=''>
         {/* SECTION 1 */}
-        <section className='bg-[#0A2640] h-screen flex flex-col items-center justify-around md:gap-2  position-relative'>
           <Nav />
+        <section className='bg-[#0A2640] h-screen flex flex-col items-center justify-around md:gap-2  position-relative'>
           <div className="flex flex-col items-center justify-between   gap-8 md:flex-row md:gap-30">
-            <div className="text-center  md:text-start md:w-lg  md:py-8 px-4 flex flex-col items-center justify-center">
+            <div className="text-center  md:text-start md:w-lg  md:py-8 px-4 flex flex-col items-center md:items-start justify-center gap-4">
               <div className="text-white flex flex-col items-center justify-center mb-8">
                 <h3 className="font-extralight text-3xl mb-2 md:text-4xl lg:text-4xl">Save time by building  fast with Boldo Template </h3>
                 <p className="text-gray-400 text-sm ">Funding handshake buyer business-to-business metrics iPad partnership. First mover advantage innovator success deployment non-disclosure.</p>
@@ -25,7 +25,19 @@ const Landing = () => {
               <img className="w-xs md:w-md" src="./images/hero-graphics.svg" alt="" />
             </div>
           </div>
-          <div><img className="md:scale-95" src="./images/Logo-Wall.png" alt="" /></div>
+          <div className='relative'>
+            <div className='absolute md:w-full lg:w-full h-18 border-e-red-100   bg-[linear-gradient(90deg,#0A2640_0%,rgba(10,38,64,0.109375)_31.6%,rgba(10,38,64,0)_72.89%,#0A2640_97.87%)]'>
+            </div>
+            <div className=' flex flex-row-reverse items-center justify-between gap-8 p-4 md:w-full lg:w-full overflow-x-hidden'>
+              <img src="./images/Logo (2).png" alt="" />
+              <img src="./images/Logo (3).png" alt="" />
+              <img src="./images/Logo (2).png" alt="" />
+              <img src="./images/Logo (3).png" alt="" />
+              <img src="./images/Logo (2).png" alt="" />
+              <img src="./images/Logo (3).png" alt="" />
+              <img src="./images/Logo (2).png" alt="" />
+            </div>
+          </div>
         </section>
 
         {/* SECTION 2 */}
@@ -81,21 +93,21 @@ const Landing = () => {
                 <div className='w-xs md:w-md flex flex-col md:items-start items-center justify-between md:gap-6'>
                   <h1 className="text-xl  font-extralight md:text-3xl mb-8">We connect our customers with the best, and help them keep up-and stay open.</h1>
                   <div>
-                    <ul className='list-none text-sm md:text-xl space-y-2 my-4 mb-8'>
-                      <li className='flex items-center '><img className='w-4 h-4 mr-4' src="./images/checkmark.png" alt="" />  <span> We connect our customers with the best.</span></li>
-                      <li className='flex items-center '><img className='w-4 h-4 mr-4' src="./images/checkmark.png" alt="" />  <span> Advisor success customer launch party.</span></li>
-                      <li className='flex items-center'><img className='w-4 h-4 mr-4' src="./images/checkmark.png" alt="" />  <span> Business-to-consumer long tail.</span></li>
+                    <ul className='list-none text-sm md:text-lg space-y-2 my-4 mb-8'>
+                      <li className='flex items-center '><img className='w-9 h-9 mr-4' src="./images/checkmark.png" alt="" />  <span> We connect our customers with the best.</span></li>
+                      <li className='flex items-center '><img className='w-9 h-9 mr-4' src="./images/checkmark.png" alt="" />  <span> Advisor success customer launch party.</span></li>
+                      <li className='flex items-center'><img className='w-9  h-9 mr-4' src="./images/checkmark.png" alt="" />  <span> Business-to-consumer long tail.</span></li>
                     </ul>
                   </div>
-                  <button className="bg-cyan-500 mr-2 text-white h-10 px-8 text-center md:mb-8 rounded-3xl">Start now</button>
+                  <button className="bg-[#0A2640] mr-2 text-white h-14 py-4 px-14 text-center md:mb-8 rounded-full">Start now</button>
                 </div>
               </div>
             
               <div className='card  flex flex-col-reverse md:flex-row items-center justify-between md:gap-32  md:w-2xl lg:w-4xl'>
-                <div className='w-xs md:w-md flex flex-col items-start justify-between gap-6'>
+                <div className='w-xs md:w-lg flex flex-col items-start justify-between gap-6'>
                   <h1 className="text-center text-xl font-extralight md:text-start md:text-3xl mb-8">We connect our customers with the best, and help them keep up-and stay open.</h1>
                   <div>
-                    <ul className='list-none text-sm md:text-xl space-y-2 my-4 mb-8'>
+                    <ul className='list-none text-[16px] md:text-lg  my-4 mb-8'>
                       <li className='flex items-center rounded-sm text-white bg-blue-950 shadow-lg p-4'><img className='w-4 h-4 mr-4' src="./images/feather.png" alt="" />  <span> We connect our customers with the best.</span></li>
                       <li className='flex items-center  shadow-lg p-4'><img className='w-4 h-4 mr-4' src="./images/star.png" alt="" />  <span> Advisor success customer launch party.</span></li>
                       <li className='flex items-center  shadow-lg p-4'><img className='w-4 h-4 mr-4' src="./images/sun.png" alt="" />  <span> Business-to-consumer long tail.</span></li>
