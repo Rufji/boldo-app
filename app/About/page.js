@@ -21,7 +21,7 @@ const page = () => {
           </div>
           
           <div className="max-w-9xl w-full mx-auto  bg-white h-120 flex items-end justify-center gap-y-16"> 
-            <div className="max-w-4xl grid grid-cols-1 sm:grid-cols-3 gap-4 sm:h-[500px] mx-auto absolute left-1/2 -bottom-40 transform -translate-x-1/2 translate-y-1/4 w-[90%] sm:w-[85%]  rounded-2xl ">
+            <div className="max-w-4xl grid grid-cols-1 sm:grid-cols-3 gap-4 sm:h-[500px] mx-auto absolute left-1/2 -bottom-30 transform -translate-x-1/2 translate-y-1/4 w-[90%] sm:w-[85%]  rounded-2xl ">
               {/* Left column */}
               <div className="flex flex-col gap-4">
                 <img
